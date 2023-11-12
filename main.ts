@@ -1,5 +1,8 @@
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Heart)
+})
+input.onButtonPressed(Button.B, function () {
+    music.play(music.stringPlayable("G G G G C C C C ", 120), music.PlaybackMode.UntilDone)
 })
 basic.showLeds(`
     . . . . .
@@ -52,5 +55,5 @@ basic.showLeds(`
     . # . # .
     `)
 basic.showString("Hello! world!")
-basic.showArrow(ArrowNames.North)
+basic.showArrow(ArrowNames.NorthWest)
 basic.showString("is game")
