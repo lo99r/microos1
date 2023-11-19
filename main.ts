@@ -1,5 +1,12 @@
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Heart)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonPressed(Button.B, function () {
     music.play(music.stringPlayable("G G G G C C C C ", 120), music.PlaybackMode.UntilDone)
