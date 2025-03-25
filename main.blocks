@@ -1,7 +1,7 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Cp%`$~f;SQg%g(A|07R1">mode</variable><variable id="P*P,u~Dq@nW0K6Y?h~Nw">x</variable><variable id="`=B0yjSaZ]Y+1sP^bM?X">y</variable><variable id=";rnkx9P)D7pKFTp%uFbe">sprite</variable><variable id="Us)hQndl@4cKjuVbcbeq">s</variable></variables><block type="pxt-on-start" id="Oq=[0W%-P8Don%?1rdP[" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="}H`4!hF?84`xg^Mr0mOB"><field name="LEDS">`
         . . . . . 
         . . . . . 
-        . . . . . 
+        . . # . . 
         . . . . . 
         . . . . .
         `</field><next><block type="music_playable_play" id="Zq,p.b;4|FMRhm0H|1NQ"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="NLsq^;kyZ~fwKP*hu6(Y"><value name="melody"><shadow type="melody_editor" id="3UZ5J5$I:VdP,o_LzOxD"><field name="melody">"C C C C G G G G "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="eg/[,(A}1o}zO8%I0qq6"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="MgopHm1t^ICqYp5uEmMS"><field name="LEDS">`
